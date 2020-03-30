@@ -24,7 +24,7 @@ public class Opiskelija extends Henkilo {
 	}
 	
 	public int opintopisteita() {
-		return opintopisteet;
+		return this.opintopisteet;
 	}
 
 }
