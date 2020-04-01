@@ -28,8 +28,7 @@ public class Opiskelija extends Henkilo {
 	
 	@Override
 	public String toString() {
-		return super.getNimi() 
-				+ "\n  " + super.getOsoite()
+		return super.toString() 
 				+ "\n  opintopisteitä " + this.opintopisteet;
 	}
 
