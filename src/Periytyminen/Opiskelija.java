@@ -7,11 +7,10 @@ public class Opiskelija extends Henkilo {
 	public static void main(String[] args) {
 		Opiskelija olli = new Opiskelija("Olli", "Ida Albergintie 1 00400 Helsinki");
 		System.out.println(olli);
-		System.out.println("opintopisteitä " + olli.opintopisteita());
 
 		olli.opiskele();
 
-		System.out.println("opintopisteitä " + olli.opintopisteita());
+		System.out.println(olli);
 		
 	}
 
@@ -25,6 +24,13 @@ public class Opiskelija extends Henkilo {
 	
 	public int opintopisteita() {
 		return this.opintopisteet;
+	}
+	
+	@Override
+	public String toString() {
+		return super.getNimi() 
+				+ "\n  " + super.getOsoite()
+				+ "\n  opintopisteitä " + this.opintopisteet;
 	}
 
 }
