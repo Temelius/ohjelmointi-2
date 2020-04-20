@@ -70,15 +70,21 @@ class DayOfYearTest {
 	
 	@Test
 	public void testInvalidDay() {
-		Exception e = assertThrows(IllegalArgumentException.class, () -> {
+		String expectedMessage = "Day has to be between 1 - 31.";
+		
+		// Testataan yli sallitun rajan annettu päivä
+		Exception overLimit = assertThrows(IllegalArgumentException.class, () -> {
 			DayOfYear.dayOfYear(12, 32, 2019);
 		});
 		
-		String expectedMessage = "Day has to be between 1 - 31.";
-		String actualMessage = e.getMessage();
+		assertTrue(overLimit.getMessage().contains(expectedMessage));
 		
-		assertTrue(actualMessage.contains(expectedMessage));
+		// Testataan alle sallitun rajan annettu päivä
+		Exception underLimit = assertThrows(IllegalArgumentException.class, () -> {
+			DayOfYear.dayOfYear(12, 0, 2019);
+		});
 		
+		assertTrue(underLimit.getMessage().contains(expectedMessage));
 	}
 	
 	@Test
