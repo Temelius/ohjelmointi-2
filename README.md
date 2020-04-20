@@ -10,17 +10,17 @@ Ohjelmointi 2 kurssin tehtävät.
 - SQLite 3.30.1
 ## Tiedostot
 ### :file_folder: yksikkotestaus
-- :hotsprings: [DayOfYearTest.java](blob/master/src/yksikkotestaus/DayOfYearTest.java)
-- :hotsprings: [DayOfYear.java](blob/master/src/yksikkotestaus/DayOfYear.java)
+- :hotsprings: [DayOfYearTest.java](src/yksikkotestaus/DayOfYearTest.java)
+- :hotsprings: [DayOfYear.java](src/yksikkotestaus/DayOfYear.java)
 ### :file_folder: map
-- :hotsprings: [Lempinimet.java](blob/master/src/map/Lempinimet.java)
-- :hotsprings: [EtunimiTilasto.java](blob/master/src/map/EtunimiTilasto.java)
-- :hotsprings: [TiedostonLukija.java](blob/master/src/map/TiedostonLukija.java)
+- :hotsprings: [Lempinimet.java](src/map/Lempinimet.java)
+- :hotsprings: [EtunimiTilasto.java](src/map/EtunimiTilasto.java)
+- :hotsprings: [TiedostonLukija.java](src/map/TiedostonLukija.java)
 ### :file_folder: omat
-- :hotsprings: [writeReadmeForGit.java](blob/master/src/omat/writeReadmeForGit.java)
+- :hotsprings: [writeReadmeForGit.java](src/omat/writeReadmeForGit.java)
 ### :file_folder: rajapinnat
-- :hotsprings: [Country.java](blob/master/src/rajapinnat/Country.java)
+- :hotsprings: [Country.java](src/rajapinnat/Country.java)
 ### :file_folder: periytyminen
-- :hotsprings: [Henkilo.java](blob/master/src/periytyminen/Henkilo.java)
-- :hotsprings: [Opiskelija.java](blob/master/src/periytyminen/Opiskelija.java)
-- :hotsprings: [HenkiloTulostus.java](blob/master/src/periytyminen/HenkiloTulostus.java)
+- :hotsprings: [Henkilo.java](src/periytyminen/Henkilo.java)
+- :hotsprings: [Opiskelija.java](src/periytyminen/Opiskelija.java)
+- :hotsprings: [HenkiloTulostus.java](src/periytyminen/HenkiloTulostus.java)
