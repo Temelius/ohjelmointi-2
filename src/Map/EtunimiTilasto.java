@@ -38,6 +38,7 @@ public class EtunimiTilasto {
 			String nimi = osat[0];
 			Integer maara = Integer.parseInt(osat[1].replaceAll(" ", ""));
 			
+			// Jos nimi on jo olemassa mapissa.
 			if (mappi.containsKey(nimi)) {
 				int vanhamaara = mappi.get(nimi);
 				mappi.put(nimi, maara + vanhamaara);
