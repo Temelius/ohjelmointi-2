@@ -27,12 +27,6 @@ public class DayOfYear {
      */
     private DayOfYear() {  }
     
-    public static void main(String[] args) {
-		System.out.println("Testi: " + dayOfYear(3, 1, 2019));
-		System.out.println("Testi: " + dayOfYear(3, 1, 2020));
-		System.out.println("Testi: " + dayOfYear(1, 12, 2020));
-	}
-    
     /**
      * 
      * @param month
