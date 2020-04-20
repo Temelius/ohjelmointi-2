@@ -28,7 +28,7 @@ public class EtunimiTilasto {
 	
 	public static Map<String, Integer> luoTilastoTiedostosta() {
 		// Luetaan tiedosto TiedostonLukija luokalla ja tehdään siitä lista.
-		TiedostonLukija csvlukija = new TiedostonLukija("etunimet.csv");
+		TiedostonLukija csvlukija = new TiedostonLukija("files/etunimet.csv");
 		List<String> rivit = csvlukija.lueRivit();
 		
 		Map<String, Integer> mappi = new HashMap<String, Integer>();
