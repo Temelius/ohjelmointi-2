@@ -1,3 +1,11 @@
+# Eclipse files
+.project
+.classpath
+
+# Maven files
+.settings/
+target/
+
 # Compiled class file
 *.class
 
