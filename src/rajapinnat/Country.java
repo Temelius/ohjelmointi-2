@@ -1,4 +1,4 @@
-package Rajapinnat;
+package rajapinnat;
 
 import java.util.Arrays;
 import java.util.Collections;

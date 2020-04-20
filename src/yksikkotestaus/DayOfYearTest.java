@@ -1,4 +1,4 @@
-package Yksikkotestaus;
+package yksikkotestaus;
 
 import static org.junit.jupiter.api.Assertions.*;
 

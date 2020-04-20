@@ -1,4 +1,4 @@
-package Periytyminen;
+package periytyminen;
 
 public class Henkilo {
 	

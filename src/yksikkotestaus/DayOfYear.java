@@ -1,4 +1,4 @@
-package Yksikkotestaus;
+package yksikkotestaus;
 
 import java.time.*;
 

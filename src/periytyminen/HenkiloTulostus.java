@@ -1,4 +1,4 @@
-package Periytyminen;
+package periytyminen;
 
 import java.util.ArrayList;
 import java.util.List;
