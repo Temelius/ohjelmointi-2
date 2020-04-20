@@ -1,3 +1,7 @@
+# Package omat, for now...
+files/readme-header.md
+src/omat/*
+
 # Eclipse files
 .project
 .classpath
