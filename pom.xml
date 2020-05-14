@@ -9,6 +9,9 @@
 		<!-- Tomcatin versionumero -->
 		<tomcat.version>9.0.31</tomcat.version>
 		
+		<!-- MariaDB versionumero -->
+		<mariadb.version>2.6.0</mariadb.version>
+		
 		<!-- Projektin merkistökoodaus -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -56,6 +59,13 @@
 			<artifactId>tomcat-jasper-el</artifactId>
 			<version>${tomcat.version}</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
+		<dependency>
+    		<groupId>org.mariadb.jdbc</groupId>
+    		<artifactId>mariadb-java-client</artifactId>
+    		<version>${mariadb.version}</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
